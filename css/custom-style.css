@@ -13,3 +13,12 @@
     border-radius: 10px;
     padding:10px;
 }
+
+.custom-link{
+    text-decoration: none;
+}
+
+.custom-font-color{
+    color: #2f0753;
+    font-weight: 800;
+}
