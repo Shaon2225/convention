@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+.body-style{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.common-btn{
+    font-weight: 800;
+    color: blueviolet;
+    background-color: #bcf8f8;
+    border: 0;
+    border-radius: 10px;
+    padding:10px;
+}

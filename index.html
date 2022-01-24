@@ -6,15 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SS center</title>
 
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="css/custom-style.css">
+
     <!-- Bootstrap link  -->
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
+<body class="body-style">
     <header>
-        <!-- header name and nav -->
-        <div class="container">
-            <h2>SS Convention Center</h2>
-        </div>
+
+        <!-- ----------------------------------------------------header name and nav--------------------------------- -->
+        <section class="d-flex justify-content-evenly align-items-center mt-4 mb-3 fw-bold">
+            <div class="container ps-5 ms-5">
+                <h2 class="fw-5 fs-2">SS convention center</h2>
+            </div>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------------------slide section--------------------------------------- -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/slide/slide-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fs-1 fw-bold" style="color:#f5fcf5">Get Together With Your Family and Frends</h5>
+                      <p>Meet with your family and firends, have some fun enjoy yourself.</p>
+                      <button class="common-btn">Book a Reservision</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slide/slide-2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fs-1 fw-bold" style="color:#f5fcf5">A Romantic Place for your wedding</h5>
+                      <p>A moon light place for you and your better half. Gether with your firends and have fun.</p>
+                      <button class="common-btn">Book a Reservision</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slide/slide-4.png" class="d-block w-100 opacity-4" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fs-1 fw-bold" style="color:#f5fcf5">Throw A Party To Your Workers</h5>
+                      <p>Make some party and make your workers refreshed.</p>
+                      <button class="common-btn">Book a Reservision</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
     </header>
     <main>
 
