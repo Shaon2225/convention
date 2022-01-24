@@ -12,31 +12,41 @@
 
     <!-- Bootstrap link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/5adf98a893.js" crossorigin="anonymous"></script>
 </head>
 <body class="body-style">
     <header>
 
         <!-- ----------------------------------------------------header name and nav--------------------------------- -->
-        <section class="d-flex justify-content-evenly align-items-center mt-4 mb-3 fw-bold">
+        <section class="d-flex justify-content-between align-items-center mt-4 mb-3 fw-bold">
             <div class="container ps-5 ms-5">
                 <h2 class="fw-5 fs-2">SS convention center</h2>
             </div>
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <ul class="navbar-nav">
-                        <li class="nav-item pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
-                        </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
-                        </li>
-                    </ul>
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                             <ul class="navbar-nav">
+                                <li class="nav-item pe-3">
+                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item pe-3">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item pe-3">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                                <li class="nav-item pe-3">
+                                <a class="nav-link" href="#">Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </section>
@@ -87,7 +97,32 @@
         </section>
     </header>
     <main>
+        <!-- ----------------------------------------------------service section------------------------------------- -->
+        <section>
+            <h2 class="fs-1 fw-normal text-center mt-5 mb-3 pt-3">Our Featurs</h2>
+            <p class="text-center">We know you are very special for us. So we ensure your full security and pleasure. To ensure that we have some great feature for you.</p>
+            <div class="container mt-5 w-100">
+                <div class="row d-flex flex-nowrap">
+                    <div class="col-sm-6 col-lg-3 border rounded-5 me-3 shadow">
+                        <img src="img/svg/parking-svgrepo-com.svg" class="w-50 h-50 mx-auto my-5 d-block" alt="">
+                        <p class="text-center fs-4 fw-bold mt-4">1000+ car parking space</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 border rounded-5 me-3 shadow">
+                        <img src="img/svg/team-svgrepo-com.svg" class="w-50 h-50 mx-auto my-5 d-block"  alt="">
+                        <p class="text-center fs-4 fw-bold mt-4">Well trained workers</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 border rounded-5 me-3 shadow">
+                        <img src="img/svg/wifi-svgrepo-com.svg" class="w-50 h-50 mx-auto my-5 d-block"  alt="">
+                        <p class="text-center fs-4 fw-bold mt-4">Wifi</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 border rounded-5 me-3 shadow">
+                        <img src="img/svg/cctv-svgrepo-com.svg" class="w-50 h-50 mx-auto my-5 d-block"  alt="">
+                        <p class="text-center fs-4 fw-bold mt-4">24/7 CCTV coverage</p>
+                    </div>
+                </div>
 
+            </div>
+        </section>
     </main>
     <footer>
 
